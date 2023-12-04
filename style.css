@@ -1,66 +1,50 @@
-*{    
-    font-family: 'Poppins', Inter;
+body{
+    font-family: 'poppins';
 }
-
-li{
-    display: inline;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* li{
-   
-    float: right;
-} */
 
 nav{
-    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    list-style-type: none;
 }
 
-header + button{
-    display: inline;
+#linktoco{
+    font-size: x-large;
 }
 
-.bs{
-    font-weight: 800;
-    font-size: larger;
+nav ul{
+    display: flex;
+    list-style-type: none;
 }
 
-.asset2{
-    float: left;
-    height: 10px;
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
-.three{
-display: inline;
+#firstitem li{
+    padding: 10px;
 }
 
-.asset1{
-    height: 700px;
-    width: auto;
+#seconditems li{
+    display: flex;
+    padding: 10px;
 }
 
-.asset2{
-    width: 300px;
-    height: 200px;
-    float: right;
+#start{
+    background-color:  #ED661F;
+    padding: 10px;
+}
+#secondItems{
+    display: flex;
+    align-items: center;
 }
 
-.asset3{
-    width: 500px;
-    height: 400px;
-    float: right;
+#secondItems :first-child{
+    padding-right: 10px;
 }
-
-.call{
-    overflow: hidden;
-    
-}
-
-.exist{
-    width: 400px;
+.active{
+    text-decoration: 4px underline #ED661F;
+    text-underline-offset: 8px;
 }
