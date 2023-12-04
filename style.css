@@ -1,0 +1,66 @@
+*{    
+    font-family: 'Poppins', Inter;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* li{
+   
+    float: right;
+} */
+
+nav{
+    text-align: center;
+}
+
+header + button{
+    display: inline;
+}
+
+.bs{
+    font-weight: 800;
+    font-size: larger;
+}
+
+.asset2{
+    float: left;
+    height: 10px;
+}
+
+.three{
+display: inline;
+}
+
+.asset1{
+    height: 700px;
+    width: auto;
+}
+
+.asset2{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+.asset3{
+    width: 500px;
+    height: 400px;
+    float: right;
+}
+
+.call{
+    overflow: hidden;
+    
+}
+
+.exist{
+    width: 400px;
+}
